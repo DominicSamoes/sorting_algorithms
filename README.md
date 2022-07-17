@@ -71,6 +71,30 @@ These are all the tasks of this project, the ones that are completed link to the
 	- in the average case
 	- in the worst case
 
+### [4. Shell sort - Knuth Sequence](./100-shell_sort.c)
+* Write a function that sorts an array of integers in ascending order using the Shell sort algorithm, using the Knuth sequence
+
+	- Prototype: void shell_sort(int *array, size_t size);
+	- You must use the following sequence of intervals (a.k.a the Knuth sequence):
+		+ n+1 = n * 3 + 1
+		+ 1, 4, 13, 40, 121, ...
+	- You’re expected to print the array each time you decrease the interval (See example below).
+
+* No big O notations of the time complexity of the Shell sort (Knuth sequence) algorithm needed - as the complexity is dependent on the size of array and gap
+
+
+### [5. Cocktail shaker sort](./101-cocktail_sort_list.c)
+* Write a function that sorts a doubly linked list of integers in ascending order using the Cocktail shaker sort algorithm
+
+	- Prototype: void cocktail_sort_list(listint_t **list);
+	- You are not allowed to modify the integer n of a node. You have to swap the nodes themselves.
+	- You’re expected to print the list after each time you swap two elements (See example below)
+* Write in the file 101-O, the big O notations of the time complexity of the Cocktail shaker sort algorithm, with 1 notation per line:
+
+	- in the best case
+	- in the average case
+	- in the worst case
+
 
 
 
