@@ -140,6 +140,43 @@ These are all the tasks of this project, the ones that are completed link to the
 	- in the average case
 	- in the worst case
 
+### [9. Radix sort](./105-radix_sort.c)
+* Write a function that sorts an array of integers in ascending order using the Radix sort algorithm
+
+	- Prototype: void radix_sort(int *array, size_t size);
+	- You must implement the LSD radix sort algorithm
+	- You can assume that array will contain only numbers >= 0
+	- You are allowed to use malloc and free for this task
+	- You’re expected to print the array each time you increase your significant digit
+
+### [10. Bitonic sort](./106-bitonic_sort.c)
+* Write a function that sorts an array of integers in ascending order using the Bitonic sort algorithm
+
+	- Prototype: void bitonic_sort(int *array, size_t size);
+	- You can assume that size will be equal to 2^k, where k >= 0 (when array is not NULL …)
+	- You are allowed to use printf
+	- You’re expected to print the array each time you swap two elements (See example below)
+
+* Write in the file 106-O, the big O notations of the time complexity of the Bitonic sort algorithm, with 1 notation per line:
+
+	- in the best case
+	- in the average case
+	- in the worst case
+
+### [11. Quick Sort - Hoare Partition scheme](./107-quick_sort_hoare.c)
+* Write a function that sorts an array of integers in ascending order using the Quick sort algorithm
+
+	- Prototype: void quick_sort_hoare(int *array, size_t size);
+	- You must implement the Hoare partition scheme.
+	- The pivot should always be the last element of the partition being sorted.
+	- You’re expected to print the array after each time you swap two elements (See example below)
+
+* Write in the file 107-O, the big O notations of the time complexity of the Quick sort algorithm, with 1 notation per line:
+
+	- in the best case
+	- in the average case
+	- in the worst case
+
 
 
 ---
